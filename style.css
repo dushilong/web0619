@@ -1,0 +1,283 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+input{
+	outline: none;
+}
+.mid1{
+	width: 1200px;
+	height: 185px;
+	margin: 0 auto;
+}
+.head{
+	float: right;
+	height: 36px;
+	width: 720px;
+	padding-left: 480px;
+	line-height: 36px;
+}
+.head1{
+	width: 216px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 13px;
+	display: inline-block;
+}
+.head2{
+	font-size: 15px;
+	display: inline-block;
+}
+.head3{
+	display: inline-block;
+}
+.head2 a{
+	color: black;
+	font-weight: bold;
+}
+.head2 img{
+	margin-bottom: 5px;
+}
+.head3 img{
+	position: relative;
+	top: 4px;
+}
+.ser{
+	height: 80px;
+	width: 1200px;
+	padding-top: 62px;
+}
+.ser1{
+	display: inline-block;
+	margin-left: 174px;
+}
+.ser1 input{
+	width: 540px;
+	height: 45px;
+	text-align: center;
+	font-size: 15px;
+	color: #dadada;
+	border:1px solid black;
+	border-right: 1px solid #dadada;
+	position: relative;
+	bottom: 17px;
+	left: 5px;
+}
+.ser2{
+	display: inline-block;
+	width: 60px;
+	height: 44px;
+	border: 1px solid black;
+	border-left: 1px solid #dadada;
+	background: url('imgs/search.png') no-repeat 12px;
+}
+.ser3{
+	display: inline-block;
+	position: relative;
+	left: 138px;
+	bottom: 5px;
+}
+.nav li{
+	display: inline-block;
+	height: 41px;
+	width: 115px;
+	line-height: 41px;
+	text-align: center;
+}
+.nav li:first-child{
+	width: 120px;
+	font-weight: bold;
+	background: url('imgs/sanjiao.png') no-repeat 110px;
+}
+.nav a{
+	font-size: 15px;
+	color: black;
+}
+.nav a:hover{
+	color: #3aa747;
+}
+.nav li:hover{
+	border-bottom: 2px solid #3aa747;
+}
+.tu{
+	height: 670px;
+	background: url('imgs/banner.png') no-repeat center;
+	margin: 0 auto;
+	border-top: 2px solid #3aa747;
+}
+.right{
+	position: fixed;
+	top: 190px;
+	right: 0px;
+}
+.right li{
+	width: 78px;
+	height: 118px;
+	background-color: #010808;
+	border-bottom: 1px solid #505453;
+}
+.right li img{
+	position: relative;
+	top: 45px;
+	left: 22px;
+}
+.mid2{
+	width: 1200px;
+	height: 1000px;
+	margin: 0 auto;
+}
+.goods{
+	height: 60px;
+	line-height: 60px;
+	margin-left: 25px;
+	font-size: 18px;
+}
+.word1{
+	display: inline-block;
+	font-size: 14px;
+	color: #dadada;
+}
+.word2{
+	display: inline-block;
+	font-size: 14px;
+	color: #dadada;
+	margin-left: 950px;
+}
+.tab li{
+	display: inline-block;
+	height: 45px;
+	width: 100px;
+	text-align: center;
+	line-height: 45px;
+}
+.tab a{
+	font-size: 16px;
+	color: black;
+}
+.tab a:hover{
+	color: #3aa747;
+}
+.tab ul{
+	width: 1200px;
+	border-left: 1px solid #b7b7b7;
+	border-bottom: 1px solid #b7b7b7;
+	border-right: 1px solid #b7b7b7;
+}
+.tab ul:first-child{
+	border-top: 1px solid #b7b7b7;
+}
+.tab ul li:first-child{
+	background-color: #e5e5e5;
+}
+.more{
+	display: inline-block;
+	font-size: 14px;
+	position: relative;
+	left: 300px;
+}
+.price{
+	margin-top: 45px;
+}
+.price li{
+	display: inline-block;
+	float: left;
+	width: 266px;
+	height: 290px;
+	border: 1px solid #dadada;
+	margin: 14px;
+	position: relative;
+}
+.price img{
+	margin: 35px 0px 0px 30px;
+}
+.first img{
+	margin: 0;
+}
+.pri1 div{
+	height: 52px;
+	width: 266px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+	bottom: 0;
+}
+.pri1 li:hover div{
+	height: 290px;
+	font-size: 22px;
+}
+.pri1 li:hover span{
+	position: relative;
+	top: 120px;
+}
+.first div{
+	height: 290px;
+	font-size: 22px;
+}
+.first span{
+	position: relative;
+	top: 120px;
+}
+.bot{
+	height: 200px;
+	background-color: #f5f5f5;
+}
+.bot1{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+	font-size: 19px;
+	color: black;
+}
+.bot1 li{
+	display: inline-block;
+	width: 260px;
+	height: 50px;
+	margin-top: 25px;
+	margin-left: 30px;
+	margin-bottom: 25px;
+	border-right: 1px solid #e1e1e1;
+}
+.bot1 p{
+	font-size: 13px;
+}
+.bot1 div{
+	height: 45px;
+	width: 190px;
+	float: right;
+}
+.bot2{
+	height: 60px;
+	padding-top: 40px;
+	background-color: #323232;
+}
+.bot2_1{
+	width: 1200px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+.bot2 a{
+	color: white;
+	font-size: 14px;
+}
+.bot2 li{
+	display: inline-block;
+	width: 125px;
+	text-align: center;
+}
+.bot2_2{
+	height: 40px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
